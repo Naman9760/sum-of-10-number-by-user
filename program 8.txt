@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp23
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("enter no.");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int d = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int e = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int f = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int g = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int h = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int i = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter no.");
+            int j = int.Parse(Console.ReadLine());
+            int sum = a + b + c + d + e + f + g + h + i + j;
+            Console.WriteLine("sum = " +sum);
+            int avg = sum / 10;
+            Console.WriteLine("avg= "+ avg );
+
+
+            Console.ReadLine();
+        }
+    }
+}
